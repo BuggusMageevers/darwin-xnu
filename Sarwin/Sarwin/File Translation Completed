@@ -1,0 +1,25 @@
+# File Translation Completed
+
+## In progress
+- osfmk/ipc/ipc_port.*
+- osfmk/ipc/ipc_entry.*
+- osfmk/ipc/ipc_space.*
+- osfmk/mach/i386/vm_param.h
+- bsd/i386/_types.h
+- osfmk/mach/arm/vm_types.h
+- osfmk/mach/i386/vm_types.h
+- osfmk/mach/machine/vm_types.h
+- libkern/libkern/i386/_OSByteOrder.h
+- libkern/libkern/OSByteOrder.h
+- osfmk/mach/ndr.h
+- osfmk/mach/i386/ndr_def/h
+- bsd/sys/cdefs.h
+
+## Completed
+- osfmk/mach/time_value.h
+- libsa/bootstrap.cpp
+- osfmk/mach/kern_return.h
+- osfmk/mach/clock_types.h
+- osfmk/mach/i386/exception.h
+- osfmk/mach/i386/fp_reg.h
+- osfmk/mach/i386/kern_return.h

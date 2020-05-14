@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Pointers.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Sarwin/Sarwin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:APPLE_LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:bsd">
+   </FileRef>
+   <FileRef
+      location = "group:config">
+   </FileRef>
+   <FileRef
+      location = "group:EXTERNAL_HEADERS">
+   </FileRef>
+   <FileRef
+      location = "group:iokit">
+   </FileRef>
+   <FileRef
+      location = "group:libkdd">
+   </FileRef>
+   <FileRef
+      location = "group:libkern">
+   </FileRef>
+   <FileRef
+      location = "group:libsa">
+   </FileRef>
+   <FileRef
+      location = "group:libsyscall">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:makedefs">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:osfmk">
+   </FileRef>
+   <FileRef
+      location = "group:pexpert">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:san">
+   </FileRef>
+   <FileRef
+      location = "group:security">
+   </FileRef>
+   <FileRef
+      location = "group:SETUP">
+   </FileRef>
+   <FileRef
+      location = "group:tests">
+   </FileRef>
+   <FileRef
+      location = "group:tools">
+   </FileRef>
+</Workspace>
