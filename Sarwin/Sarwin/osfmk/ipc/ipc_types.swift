@@ -15,7 +15,7 @@
 
 import Foundation
 
-
+/*
 typealias ipc_table_index_t = natural_t /*  index into tables   */
 typealias ipc_table_elems_t = natural_t /*  size of tables      */
 typealias ipc_entry_bits_t = natural_t
@@ -49,3 +49,4 @@ func IIT_NULL() { ipc_importance_task_t = nil }
 
 let ipc_importance_inherit_t: UnsafePointer<ipc_importance_inherit>?
 func III_NULL() { ipc_importance_inherit_t = nil }
+*/

@@ -8,7 +8,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 struct ClockTypes {
     typealias alarm_type_t = Int32          /* alarm time type */
     typealias Sleep_type_t = Int32          /* sleep time type */
@@ -100,3 +103,4 @@ struct ClockTypes {
         }
     }
 }
+*/

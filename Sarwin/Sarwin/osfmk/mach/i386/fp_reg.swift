@@ -6,7 +6,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 /******************************************************************************/
 #if  MACH_KERNEL_PRIVATE
 struct x86_fx_thread_state {
@@ -150,3 +153,4 @@ let FP_SOFT: UInt16 = 1     /*  software FP emulator                */
 let FP_287: UInt16 = 2      /*  80287                               */
 let FP_387: UInt16 = 3      /*  08387                               */
 let FPFXSR: UInt16 = 5      /*  fast save/resotre SIMD Extension    */
+*/

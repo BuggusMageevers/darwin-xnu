@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		0F097528246C6EC2008A97EA /* SarwinTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F097527246C6EC2008A97EA /* SarwinTest.swift */; };
 		0F09752E246CBEFF008A97EA /* ipc_space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F09752D246CBEFF008A97EA /* ipc_space.swift */; };
+		0F0CB6C12471087C00F957ED /* acpi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CB6C02471087C00F957ED /* acpi.swift */; };
 		0F12FDD82469E4A300A2F46F /* ipc_entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12FDD72469E4A300A2F46F /* ipc_entry.swift */; };
 		0F172452245F5D0C00464F44 /* kern_return.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F172451245F5D0C00464F44 /* kern_return.swift */; };
 		0F203725245CE86A00026931 /* bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F203724245CE86A00026931 /* bootstrap.swift */; };
+		0F2EAAF7247762D4009B7BBF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAAF6247762D4009B7BBF /* main.swift */; };
+		0F2EAAF92477F1B0009B7BBF /* apci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EAAF82477F1B0009B7BBF /* apci.swift */; };
 		0F3256B72469C89D005BDA75 /* ipc_port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3256B62469C89D005BDA75 /* ipc_port.swift */; };
 		0F3256B92469CF38005BDA75 /* ipc_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3256B82469CF38005BDA75 /* ipc_types.swift */; };
 		0F8B9ABA246117F6004A9141 /* clock_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9AB9246117F6004A9141 /* clock_types.swift */; };
 		0F8B9ABC2464271B004A9141 /* Foundation Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9ABB2464271B004A9141 /* Foundation Extensions.swift */; };
 		0F8B9AC424644877004A9141 /* exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9AC324644877004A9141 /* exception.swift */; };
 		0F8B9AC624658441004A9141 /* fp_reg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9AC524658441004A9141 /* fp_reg.swift */; };
-		0F8B9AC82465C9BD004A9141 /* i386_kern_return.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9AC72465C9BD004A9141 /* i386_kern_return.swift */; };
 		0F8B9ACA2465FE84004A9141 /* time_value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9AC92465FE84004A9141 /* time_value.swift */; };
 		0F8B9ACC24660905004A9141 /* vm_param.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9ACB24660905004A9141 /* vm_param.swift */; };
 		0F8B9ACE24661C6D004A9141 /* vm_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B9ACD24661C6D004A9141 /* vm_types.swift */; };
@@ -42,10 +44,13 @@
 		0F097527246C6EC2008A97EA /* SarwinTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarwinTest.swift; sourceTree = "<group>"; };
 		0F097529246C6EC2008A97EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F09752D246CBEFF008A97EA /* ipc_space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipc_space.swift; sourceTree = "<group>"; };
+		0F0CB6C02471087C00F957ED /* acpi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acpi.swift; sourceTree = "<group>"; };
 		0F12FDD72469E4A300A2F46F /* ipc_entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipc_entry.swift; sourceTree = "<group>"; };
 		0F172451245F5D0C00464F44 /* kern_return.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kern_return.swift; sourceTree = "<group>"; };
 		0F203721245CE86A00026931 /* Sarwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sarwin; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F203724245CE86A00026931 /* bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootstrap.swift; sourceTree = "<group>"; };
+		0F2EAAF6247762D4009B7BBF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0F2EAAF82477F1B0009B7BBF /* apci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apci.swift; sourceTree = "<group>"; };
 		0F3256B62469C89D005BDA75 /* ipc_port.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipc_port.swift; sourceTree = "<group>"; };
 		0F3256B82469CF38005BDA75 /* ipc_types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipc_types.swift; sourceTree = "<group>"; };
 		0F8B9AB9246117F6004A9141 /* clock_types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock_types.swift; sourceTree = "<group>"; };
@@ -53,7 +58,6 @@
 		0F8B9ABD24642A12004A9141 /* File Translation Completed */ = {isa = PBXFileReference; lastKnownFileType = text; path = "File Translation Completed"; sourceTree = "<group>"; };
 		0F8B9AC324644877004A9141 /* exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exception.swift; sourceTree = "<group>"; };
 		0F8B9AC524658441004A9141 /* fp_reg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fp_reg.swift; sourceTree = "<group>"; };
-		0F8B9AC72465C9BD004A9141 /* i386_kern_return.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = i386_kern_return.swift; sourceTree = "<group>"; };
 		0F8B9AC92465FE84004A9141 /* time_value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_value.swift; sourceTree = "<group>"; };
 		0F8B9ACB24660905004A9141 /* vm_param.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm_param.swift; sourceTree = "<group>"; };
 		0F8B9ACD24661C6D004A9141 /* vm_types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm_types.swift; sourceTree = "<group>"; };
@@ -86,6 +90,15 @@
 				0F097529246C6EC2008A97EA /* Info.plist */,
 			);
 			path = SarwinTest;
+			sourceTree = "<group>";
+		};
+		0F0CB6BF2471085F00F957ED /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CB6C02471087C00F957ED /* acpi.swift */,
+				0F2EAAF82477F1B0009B7BBF /* apci.swift */,
+			);
+			path = i386;
 			sourceTree = "<group>";
 		};
 		0F17244F245F5CCA00464F44 /* libkern */ = {
@@ -126,6 +139,7 @@
 		0F203718245CE86A00026931 = {
 			isa = PBXGroup;
 			children = (
+				0F2EAAF6247762D4009B7BBF /* main.swift */,
 				0F203723245CE86A00026931 /* Sarwin */,
 				0F097526246C6EC1008A97EA /* SarwinTest */,
 				0F203722245CE86A00026931 /* Products */,
@@ -187,7 +201,6 @@
 			children = (
 				0F8B9AC324644877004A9141 /* exception.swift */,
 				0F8B9AC524658441004A9141 /* fp_reg.swift */,
-				0F8B9AC72465C9BD004A9141 /* i386_kern_return.swift */,
 				0F8B9ACB24660905004A9141 /* vm_param.swift */,
 			);
 			path = i386;
@@ -196,6 +209,7 @@
 		0F8B9AC12464480E004A9141 /* osfmk */ = {
 			isa = PBXGroup;
 			children = (
+				0F0CB6BF2471085F00F957ED /* i386 */,
 				0F3256B52469C88A005BDA75 /* ipc */,
 				0F8B9AC224644867004A9141 /* kern */,
 				0F172450245F5CEA00464F44 /* mach */,
@@ -319,14 +333,16 @@
 				0F172452245F5D0C00464F44 /* kern_return.swift in Sources */,
 				0F8B9ACE24661C6D004A9141 /* vm_types.swift in Sources */,
 				0F09752E246CBEFF008A97EA /* ipc_space.swift in Sources */,
-				0F8B9AC82465C9BD004A9141 /* i386_kern_return.swift in Sources */,
 				0F3256B72469C89D005BDA75 /* ipc_port.swift in Sources */,
 				0F3256B92469CF38005BDA75 /* ipc_types.swift in Sources */,
 				0F12FDD82469E4A300A2F46F /* ipc_entry.swift in Sources */,
 				0F8B9ACC24660905004A9141 /* vm_param.swift in Sources */,
 				0F8B9AD0246636A3004A9141 /* port.swift in Sources */,
+				0F2EAAF7247762D4009B7BBF /* main.swift in Sources */,
 				0F8B9ACA2465FE84004A9141 /* time_value.swift in Sources */,
+				0F0CB6C12471087C00F957ED /* acpi.swift in Sources */,
 				0F203725245CE86A00026931 /* bootstrap.swift in Sources */,
+				0F2EAAF92477F1B0009B7BBF /* apci.swift in Sources */,
 				0F8B9AC424644877004A9141 /* exception.swift in Sources */,
 				0F8B9ABC2464271B004A9141 /* Foundation Extensions.swift in Sources */,
 			);

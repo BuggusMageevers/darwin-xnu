@@ -48,6 +48,7 @@ import Foundation
 
 
 /*
+/*
  *  mach_port_name_t - the local identity for a Mach port
  *
  *  The name is Mach port namespace specific.  If is used to
@@ -390,3 +391,4 @@ let PORT_DEAD: port_t = ~0
 func PORT_VALID(_ name: port_t) -> boolean_t { return name != PORT_NULL && name != PORT_DEAD }
 
 #endif  /*  !__DARWIN_UNIX03 && !_NO_PORT_T_FROM_MACH */
+*/

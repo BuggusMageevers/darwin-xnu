@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+/*
 /*
  *  A receive right (port) can be in four states:
  *    1) dead (not active, ip_timestamp has death time)
@@ -42,7 +42,7 @@ struct ipc_port: OptionSet {
     }
     let data: Data
     
-    enum kData {
+    indirect enum kData {
         case kObject(ipc_kobject)
         case imp_task(ipc_importance_task_t)
         case sync_inheritor_port(ipc_port_t)
@@ -64,18 +64,20 @@ struct ipc_port: OptionSet {
     
     let ip_context: mach_vm_address_t
     
-    let rawValue: Int32
-    
-    static let ip_sprequests = ipc_port(rawValue: 1 << 0)   /* send-possible requests outstanding */
-    static let ip_spimportant = ipc_port(rawValue: 1 << 1)  /* ... at least one is importance donating */
-    static let ip_impdonation = ipc_port(rawValue: 1 << 2)  /* port supports importance donation */
-    static let ip_tempowner = ipc_port(rawValue: 1 << 3)    /* dont give donations to current receiver */
-    static let ip_guarded = ipc_port(rawValue: 1 << 4)      /* port guarded (use context value as guard) */
-    static let ip_strict_guard = ipc_port(rawValue: 1 << 5) /* Strict guarding; Prevents user manipulation of context values directly */
-    static let ip_specialreply = ipc_port(rawValue: 1 << 6) /* port is a special reply port */
-    static let ip_sync_link_state = ipc_port(rawValue: 3 << 7)  /* link the special reply port to destination port/ Workloop */
-    static let ip_impcount = ipc_port(rawValue: 22 << 10)   /* number of importance donations in nested queue */
-    
+    struct ip_flags: OptionSet {
+        let rawValue: Int32
+        
+        static let ip_sprequests = ip_flags(rawValue: 1 << 0)   /* send-possible requests outstanding */
+        static let ip_spimportant = ip_flags(rawValue: 1 << 1)  /* ... at least one is importance donating */
+        static let ip_impdonation = ip_flags(rawValue: 1 << 2)  /* port supports importance donation */
+        static let ip_tempowner = ip_flags(rawValue: 1 << 3)    /* dont give donations to current receiver */
+        static let ip_guarded = ip_flags(rawValue: 1 << 4)      /* port guarded (use context value as guard) */
+        static let ip_strict_guard = ip_flags(rawValue: 1 << 5) /* Strict guarding; Prevents user manipulation of context values directly */
+        static let ip_specialreply = ip_flags(rawValue: 1 << 6) /* port is a special reply port */
+        static let ip_sync_link_state = ip_flags(rawValue: 3 << 7)  /* link the special reply port to destination port/ Workloop */
+        static let ip_impcount = ip_flags(rawValue: 22 << 10)   /* number of importance donations in nested queue */
+    }
+    var ip_flags: ip_flags
     let ip_mscount: mach_port_mscount_t
     let ip_srights: mach_port_rights_t
     let ip_sorights: mach_port_rights_t
@@ -97,3 +99,4 @@ struct ipc_port: OptionSet {
 
 let ip_object.ip_references: ip_references
 let ip_object.io_bits: ip_bits
+*/

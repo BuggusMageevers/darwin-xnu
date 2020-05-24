@@ -8,7 +8,7 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
-
+/*
 //  MARK: - Bootstrap Declarations
 protocol Bootstrap {
     static func recordStarupExtensionsFunction()
@@ -124,3 +124,4 @@ class KLDBootstrap {
 }
 
 typealias sBootstrapObject = KLDBootstrap
+*/

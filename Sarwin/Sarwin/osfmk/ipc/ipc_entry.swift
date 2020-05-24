@@ -12,7 +12,7 @@
 
 import Foundation
 
-
+/*
 /*
  *    Spaces hold capabilities for ipc_object_t's.
  *    Each ipc_entry_t records a capability.  Most capabilities have
@@ -201,3 +201,4 @@ func ipc_entry_grow_table(_ space: ipc_space_t, _ target_size: ipc_table_elems_t
 func ipc_entry_name_mack(_ name: mach_port_name_t) -> mach_port_name_t {
     
 }
+*/

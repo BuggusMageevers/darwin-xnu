@@ -6,7 +6,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 typealias kern_return_t = Int32
 
 /***********************************************************
@@ -123,3 +126,4 @@ let KERN_POLICY_STATIC: UInt32 = 51
 let KERN_INSUFFICIENT_BUFFER_SIZE: UInt32 = 52
 let returnMax: UInt32 = 0x100
 /**********************************************************/
+*/

@@ -32,7 +32,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 typealias pointer_t = vm_offset_t
 typealias vm_address_t = vm_offset_t
 
@@ -216,3 +219,4 @@ struct vm_rtfault_record_t {
     let rtftype: UInt64       //  fault type
 }
 #endif
+*/

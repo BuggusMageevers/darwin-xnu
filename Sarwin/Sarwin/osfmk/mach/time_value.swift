@@ -15,7 +15,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 /*
  *  Time value returned by kernel.
  */
@@ -48,3 +51,4 @@ func time_value_add(_ result: inout time_value, addend: time_value) {
         result.seconds += 1
     }
 }
+*/

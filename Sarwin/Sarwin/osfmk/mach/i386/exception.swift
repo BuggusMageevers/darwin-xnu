@@ -6,7 +6,10 @@
 //  Copyright © 2020 MyKo. All rights reserved.
 //
 
+import Foundation
 
+
+/*
 /***************************************************************/
 //  FIXME:  Should be an enum?
 
@@ -78,3 +81,4 @@ let EXC_I386_ENDEXTFLT: UInt8 = 32  /*  emulated ext no present         */
  *  machine dependent exception masks
  */
 let EXC_MASK_MACHINE: UInt8 = 0
+*/

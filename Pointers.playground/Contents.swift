@@ -45,7 +45,5 @@ struct ipc_space {
 var thing = ipc_space.ipc_entry(index: .next(1), thing: 0)
 
 var space = ipc_space()
-var table = withUnsafeMutablePointer(to: &space.is_table[0]) { pointer in return pointer }
+var table = withUnsafeMutablePointer(to: &space.is_table[0]) { return $0 }
 var next_free = table[0].index
-
-
